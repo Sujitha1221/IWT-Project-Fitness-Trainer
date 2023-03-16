@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header section */
+body {
+    
+    background-image: linear-gradient(black, cyan);
+ 
+}
+header{
+    position: relative;
+    background-color: #333a3f;
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+    /* font-family:Verdana,sans-serif; */
+}
+
+#head-image img {
+    position: absolute;
+    height: 100px;
+    padding: 0 25px;
+    left: 0;
+    
+}
+
+.purchaseOrder {
+    text-align: center;
+}
+
+img:hover {
+    border: 5px solid cyan;
+    border-radius: 1%;
+}
+
+#header-area #navigations {
+    position: absolute;
+    right: 0;
+}
+
+#navigations li {
+    list-style: none;
+    margin: 41px 20px;
+}
+
+#navigations li:after:hover {
+    content: "";
+    width: 10px;
+}
+
+
+
+#navigations a:hover {
+    background-color: #00FFFF;
+    transition: .1s;
+}
+
+
+/* footer section */
+
+footer {
+    background-color: #333a3f;
+}
+
+.footer {
+   /* position: absolute       ; */
+   bottom: 0px;
+   height: 75px;
+   width: 100%;
+   background-color:#333a3f;
+   color:white;
+   text-align: center;
+   position: fixed;
+}
+
+.SocialLogos img {
+    width: 40px;    
+    padding: 5px;
+}
+
+
+
+.copyRSing{
+    color: white;
+    font-size: 18px;
+}
+
+/* Hero Slider */
+
+.block {
+    position: relative;
+    margin: auto;
+    background-color: #1f4646;
+}
+
+.block img {
+    position: absolute;
+    width: 100%;
+}
+
+.leftArrow , .rightArrow {
+    position: absolute;
+    top: 150px;
+    color: rgb(0, 255, 255, 0.5);
+    user-select: none;
+    font-size: 75px;
+    text-decoration: none;
+}
+
+.leftArrow {
+    left: 75px;
+}
+.rightArrow {
+    right: 75px;
+}
+
+.leftArrow:hover , .rightArrow:hover {
+    color: rgb(0, 255, 255, 1);
+}
+
+.description {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: cyan;
+    top: 400px;
+}
+
+.description .midbtn {
+    padding: 10px 25px;
+    background-color: cyan;
+    border-radius: 5%;
+    color: black;
+    font-size: large;
+}
+
+.description .midbtn:hover {
+    background-color: darkgrey;
+}
+
+.seperator {
+    display: inline-block;
+    width: 100%;
+    height: 100px;
+}
+
+/* Our Programmes Section */
+
+.infoSections {
+    position: relative;
+    top: 50 px;
+    margin: 30px;
+}
+
+.container {
+    width: 28%;
+    margin: 20px 30px;
+    border-radius: 10px;
+    height: 450px;
+    float: left;
+    padding: 10px;
+    background-color:#333a3f;
+    color: white;
+}
+
+.container img {
+    max-width: 100%;  
+}
+
+.infos {
+    position: relative;
+}
+
+.infos h2 {
+    word-spacing: 1em;
+    word-spacing: .5em;
+    color: white;
+}
+
+.infos p {
+    padding: 10px 5px;
+    text-align: justify;
+}
+
+.infos button {
+    position: absolute;
+    width: 100%;
+    top: 450px;
+    padding: 10px 0;
+    background-color: #00FFFF;
+    font-size: large;
+    color: white;
+}
+
+.infos button:hover {
+    background-color:darkgrey;
+}
+
+
+.seperator {
+    width: 100%;
+    height: 100px;
+}
+
+
+

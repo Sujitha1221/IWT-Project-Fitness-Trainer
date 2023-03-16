@@ -1,0 +1,122 @@
+.plans{
+    display: inline-block;
+    width: 28%;
+    height: 90%;
+    margin: 20px 30px;
+    border-radius: 10px;
+    background-color: black;
+    position: relative;
+    overflow: hidden;
+}
+.fplans{
+    display: inline-block;
+    width: 28%;
+    height: 700px;
+    margin: 20px 30px;
+    border-radius: 10px;
+    background-color: black;
+    position: relative;
+    overflow: hidden;
+}
+.container{
+    height: 500px;
+}
+
+.plan-button, .fplan-button {
+    position: absolute;
+    bottom: 30px;
+    left: 32%;
+}
+
+main button {
+    color: white;
+    background-color: rgb(0, 0, 0);
+    padding: 15px 40px;
+    margin: auto;
+    border: 1px solid cyan;
+    border-radius: 10px;
+    font-size: large;
+}
+
+main button:hover {
+    background-color: cyan;
+}
+
+main button:active {
+    background-color: rgb(8, 8, 8);
+}
+
+main .title {
+    position: relative;
+    top: 10px;
+    left: 25px;
+    color: cyan;
+    font-size: large;
+}
+.ftitle {
+    position: relative;
+    
+    color: cyan;
+    font-size: large;
+    padding: 10px;
+}
+
+main .content, .fcontent {
+    position: relative;
+    left: 25px;
+    width: 90%;
+    text-align: justify;
+    font-size: small;
+    color: rgb(248, 248, 248);
+    line-height: 200%;
+    font-size: 14px;
+}
+
+.pics img, .fpics img {
+    position: absolute;
+    left: 25px;
+    bottom: 150px;
+    width: 90%;
+    height: 250px;
+    border: 1px solid cyan;
+    border-radius: 10%;
+}
+
+.infoSections h2 {
+    margin: 20px;
+}
+
+
+/* Purchase Form */
+
+.Form {
+    position: relative;
+    margin: auto;
+    width: 600px;
+    padding: 10px;
+    border: 5px solid cyan;
+    color: white;
+    border-radius: 2%;
+    text-align: center;
+    background-color: black;
+}
+
+.txt {
+    width: 300px;
+}
+
+#btn {
+    width: 300px;
+    padding: 10px 0;
+    background-color: cyan;
+    border-radius: 2%;
+}
+
+#btn:hover {
+    background-color: #333a3f;
+    color: white;
+}
+
+#btn:active {
+    background-color: red;
+}

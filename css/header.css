@@ -1,0 +1,21 @@
+header a.active {
+    
+    background-color: #157c8c;
+    
+    
+}
+header #navigations a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px ;
+    border-radius: 3%;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-radius: 7px;
+}
+header {
+    font-family: Verdana,sans-serif;
+}
+body{
+    font-family: Verdana,sans-serif;
+}

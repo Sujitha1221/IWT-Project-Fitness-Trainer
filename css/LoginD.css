@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    background-color: #333a3f;
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#header-area #head-image img {
+    height: 100px;
+    border: 4px solid #333a3f;
+    float: left;
+}
+
+#header-area #topic h1{
+    font-size: xx-large;
+    color: rgba(255, 255, 255, 0.897);
+    word-spacing: .3m;
+    font-size: 46px;
+    float: left;
+    margin-top: 27px; 
+    margin-left: 5px;   
+}
+
+#header-area #navigations {
+    float: right;
+}
+
+#header-area #navigations li {
+    list-style: none;
+    margin: 41px 20px;
+}
+
+#navigations a {
+    text-decoration: none;
+    color: white;
+    padding: 35px 10px ;
+    border-radius: 3%;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+a:hover {
+    color: aliceblue;
+    background-color: #00FFFF;
+    transition: .1s;
+}
+
+.clear {
+    clear: both;
+}
+
+a.active {
+    background-color: #00FFFF;
+}
+
+
+footer {
+    background-color: #333a3f;
+}
+.footer {
+   left:0;
+   bottom: 0;
+   padding:1.5%;
+   height:20%;
+   width: 100%;
+   background-color:#333a3f;
+   color:white;
+   text-align: center;
+   border:2px solid #333;
+}
+
+.SocialLogos img {
+
+    width:40px;
+    height:40px;
+    
+}
+.copyRSing{
+    color: white;
+    font-size: 18px;
+}
+
+.form{
+  background-color:rgb(0, 0, 0);
+  border:5px solid #00FFFF;
+  padding:20px;
+  width:550px;
+  margin:auto;
+  color: aliceblue;
+
+  text-align: left;
+
+}
+
+.submit{
+  background-color:#00FFFF;
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+  padding: 14px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin: 8px 0;
+  font-family: Geneva;
+  border-radius: 5px;
+}
+
+.submit:hover{
+  background-color: #333;
+}
+
+.textb {
+  background-color:black;
+  font-size: 15px;
+  color: white;
+  text-align: left;
+  font-size: 20px;
+}
+
+.texta{
+  width:100%;
+  padding:12px;
+  border:1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  border-radius: 10px;
+  color: black;
+}
+
+a{
+  font-size: 20px;
+  
+}
+
+.user
+{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body{
+  background-image: url("../images/gym.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

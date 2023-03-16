@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    background-color: #333a3f;
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#header-area #head-image img {
+    height: 100px;
+    border: 4px solid #333a3f;
+    float: left;
+}
+
+#header-area #topic h1{
+    font-size: xx-large;
+    color: rgba(255, 255, 255, 0.897);
+    word-spacing: .3m;
+    font-size: 46px;
+    float: left;
+    margin-top: 27px; 
+    margin-left: 5px;   
+}
+
+#header-area #navigations {
+    float: right;
+}
+
+#header-area #navigations li {
+    list-style: none;
+    margin: 41px 20px;
+}
+
+#navigations a {
+    text-decoration: none;
+    color: white;
+    padding: 35px 10px ;
+    border-radius: 3%;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+a:hover {
+    color: aliceblue;
+    background-color: #00FFFF;
+    transition: .1s;
+}
+
+.clear {
+    clear: both;
+}
+
+a.active {
+    background-color: #00FFFF;
+}
+
+
+footer {
+    background-color: #333a3f;
+}
+.footer {
+   left:0;
+   bottom: 0;
+   padding:1.5%;
+   height:20%;
+   width: 100%;
+   background-color:#333a3f;
+   color:white;
+   text-align: center;
+   border:2px solid #333;
+}
+
+.SocialLogos img {
+
+    width:40px;
+    height:40px;
+    
+}
+.copyRSing{
+    color: white;
+    font-size: 18px;
+}
+
+body{
+  background-image: url('../images/ash.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-size: 16px;
+  color: black;
+}
+.Diets{
+  position: relative;
+  height: 250px;
+  width:350px;
+  transition: transform .2s;
+  float: left;
+  margin: 0px 50px 0px 90px;
+  
+}
+
+.Diets:hover {
+  opacity: 1;
+}
+
+
+.dietOverlay{
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #9e9e9e59;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+
+}
+.Diets:hover .dietOverlay {
+    bottom: 0;
+  height: 100%;
+}
+
+
+.viewDiet{
+
+  width: 50%;
+  background-color: cyan;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.viewDiet:hover{
+  background-color: steelblue;
+  color: white;
+}
+.text{
+   width:90%;
+}
+
+p{
+  font-size: 19px;
+}
+.head{
+  font-size: 32px;
+}
+
+.buy{
+  background-color: cyan;
+  border-radius: 4px;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  border: none;
+  padding: 15px 32px;
+  font-size: 16px;
+  padding: 15px 32px;
+}
+.buy:hover{
+  background-color: steelblue;
+  color: white;
+}
+.initial{
+  border: 5px solid cyan;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 30px 20px 75px 50px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+
+.corner{
+    border: 5px solid cyan;
+    margin: 30px 40px 30px 50px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+}
+
+.dietician{
+    height: 300px;
+    width: 300px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.card3{
+    
+    border-radius: 12px;
+    padding: 20px;
+    margin: 30px 20px 90px 50px;
+ 
+}
+.card1{
+    float: left;
+    height: 560px;
+    width: 400px;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    border: 5px solid cyan;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    
+}
+.nutrila{
+    font-size: 32px
+}
