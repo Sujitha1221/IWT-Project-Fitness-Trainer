@@ -1,2 +1,2 @@
-# IWT-Project-Fitness-Trainer
-The technologies used are HTML,CSS,Java Script and php.
+# Website-for-Online-Fitness-Training-System
+The technologies used are HTML,CSS,Java Script,MY Sql and php.
