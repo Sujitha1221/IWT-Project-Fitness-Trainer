@@ -1,2 +1,2 @@
 # Website-for-Online-Fitness-Training-System
-The technologies used are HTML,CSS,Java Script,MY Sql and php.
+The technologies used are HTML,CSS,Java Script,My SQL and php.
